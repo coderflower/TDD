@@ -38,8 +38,9 @@ class MoviesViewController: UITableViewController {
 
         // Configure the cell...
 
- 
-        
+        let movie = MoviesDataHelper.getMovies()[indexPath.row]
+        cell.textLabel?.text = movie.title
+        cell.detailTextLabel?.text = movie.genre.rawValue
         return cell
     }
     
