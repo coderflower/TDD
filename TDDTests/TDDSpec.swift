@@ -15,7 +15,7 @@ class TDDSpec: QuickSpec {
         var moviesViewController: MoviesViewController!
         describe("MoviesViewController") {
             beforeEach {
-                moviesViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! MoviesViewController
+                moviesViewController = (UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! MoviesViewController)
                 // 加载控制器的 view
                 _ = moviesViewController.view
             }

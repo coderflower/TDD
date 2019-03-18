@@ -1,20 +1,26 @@
 PODS:
+  - CollectionKit (2.3.0):
+    - CollectionKit/Core (= 2.3.0)
+  - CollectionKit/Core (2.3.0)
   - Nimble (8.0.1)
   - Quick (2.0.0)
 
 DEPENDENCIES:
+  - CollectionKit
   - Nimble
   - Quick
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CollectionKit
     - Nimble
     - Quick
 
 SPEC CHECKSUMS:
+  CollectionKit: 6910479bf865bfe49040e73322ce4b8fe8991231
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
 
-PODFILE CHECKSUM: d73cbb04d7a9b42697c0d9870b961658a97fb090
+PODFILE CHECKSUM: 6f8d49975a1f20b6c6a9e96ae52355dd394a5a5d
 
 COCOAPODS: 1.6.0.beta.2
