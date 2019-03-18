@@ -145,7 +145,7 @@
 				B8F5D0CF223F4F7E0092143F /* Sources */,
 				B8F5D0D0223F4F7E0092143F /* Frameworks */,
 				B8F5D0D1223F4F7E0092143F /* Resources */,
-				9E98A8D1C61B3341D0DA76D6 /* [CP] Embed Pods Frameworks */,
+				16A1DA161C5BCA09524E1264 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,7 +235,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9E98A8D1C61B3341D0DA76D6 /* [CP] Embed Pods Frameworks */ = {
+		16A1DA161C5BCA09524E1264 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -497,7 +497,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B827F5B80882A7DDEC29B32F /* Pods-TDD.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVF4WB423W;
@@ -519,7 +518,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6BA1EEDF9F9B4BB262748BF /* Pods-TDD.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVF4WB423W;
