@@ -13,6 +13,8 @@
 		B8F5D0E1223F4F7E0092143F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F5D0DF223F4F7E0092143F /* LaunchScreen.storyboard */; };
 		B8F5D0EC223F4F7E0092143F /* TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0EB223F4F7E0092143F /* TDDTests.swift */; };
 		B8F5D0F7223F4FD30092143F /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0F6223F4FD30092143F /* MoviesViewController.swift */; };
+		B8F5D0F9223F50100092143F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0F8223F50100092143F /* Movie.swift */; };
+		B8F5D0FB223F50730092143F /* MoviesDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0FA223F50730092143F /* MoviesDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B8F5D0EB223F4F7E0092143F /* TDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDTests.swift; sourceTree = "<group>"; };
 		B8F5D0ED223F4F7E0092143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8F5D0F6223F4FD30092143F /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		B8F5D0F8223F50100092143F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B8F5D0FA223F50730092143F /* MoviesDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				B8F5D0D6223F4F7E0092143F /* AppDelegate.swift */,
 				B8F5D0F6223F4FD30092143F /* MoviesViewController.swift */,
+				B8F5D0F8223F50100092143F /* Movie.swift */,
+				B8F5D0FA223F50730092143F /* MoviesDataHelper.swift */,
 				B8F5D0DA223F4F7E0092143F /* Main.storyboard */,
 				B8F5D0DD223F4F7E0092143F /* Assets.xcassets */,
 				B8F5D0DF223F4F7E0092143F /* LaunchScreen.storyboard */,
@@ -199,6 +205,8 @@
 			files = (
 				B8F5D0D7223F4F7E0092143F /* AppDelegate.swift in Sources */,
 				B8F5D0F7223F4FD30092143F /* MoviesViewController.swift in Sources */,
+				B8F5D0FB223F50730092143F /* MoviesDataHelper.swift in Sources */,
+				B8F5D0F9223F50100092143F /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
