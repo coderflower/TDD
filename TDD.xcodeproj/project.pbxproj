@@ -13,10 +13,10 @@
 		B8F5D0DC223F4F7E0092143F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F5D0DA223F4F7E0092143F /* Main.storyboard */; };
 		B8F5D0DE223F4F7E0092143F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F5D0DD223F4F7E0092143F /* Assets.xcassets */; };
 		B8F5D0E1223F4F7E0092143F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F5D0DF223F4F7E0092143F /* LaunchScreen.storyboard */; };
-		B8F5D0EC223F4F7E0092143F /* TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0EB223F4F7E0092143F /* TDDTests.swift */; };
 		B8F5D0F7223F4FD30092143F /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0F6223F4FD30092143F /* MoviesViewController.swift */; };
 		B8F5D0F9223F50100092143F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0F8223F50100092143F /* Movie.swift */; };
 		B8F5D0FB223F50730092143F /* MoviesDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0FA223F50730092143F /* MoviesDataHelper.swift */; };
+		B8F5D0FD223F52060092143F /* TDDSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5D0FC223F52060092143F /* TDDSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 		B8F5D0E0223F4F7E0092143F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F5D0E2223F4F7E0092143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8F5D0E7223F4F7E0092143F /* TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8F5D0EB223F4F7E0092143F /* TDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDTests.swift; sourceTree = "<group>"; };
 		B8F5D0ED223F4F7E0092143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8F5D0F6223F4FD30092143F /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		B8F5D0F8223F50100092143F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		B8F5D0FA223F50730092143F /* MoviesDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataHelper.swift; sourceTree = "<group>"; };
+		B8F5D0FC223F52060092143F /* TDDSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSpec.swift; sourceTree = "<group>"; };
 		F54181A1D8EABFD8A554BD0E /* Pods_TDD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,6 @@
 				29CAD0D4D85880D7EA0313C0 /* Pods-TDDTests.debug.xcconfig */,
 				475F365A968D04C88B4C79E2 /* Pods-TDDTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,7 +128,7 @@
 		B8F5D0EA223F4F7E0092143F /* TDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				B8F5D0EB223F4F7E0092143F /* TDDTests.swift */,
+				B8F5D0FC223F52060092143F /* TDDSpec.swift */,
 				B8F5D0ED223F4F7E0092143F /* Info.plist */,
 			);
 			path = TDDTests;
@@ -321,7 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F5D0EC223F4F7E0092143F /* TDDTests.swift in Sources */,
+				B8F5D0FD223F52060092143F /* TDDSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
