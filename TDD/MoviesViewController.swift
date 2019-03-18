@@ -38,6 +38,8 @@ class MoviesViewController: UITableViewController {
 
         // Configure the cell...
 
+ 
+        
         return cell
     }
     

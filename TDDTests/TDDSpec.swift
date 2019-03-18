@@ -24,6 +24,17 @@ class TDDSpec: QuickSpec {
                     expect(moviesViewController.tableView.numberOfRows(inSection: 0)) == 10
                 })
             })
+            
+            context("TableView", {
+                var cell: UITableViewCell!
+                beforeEach {
+                    cell = moviesViewController.tableView(moviesViewController.tableView, cellForRowAt: IndexPath(row: 0, section: 0))
+                }
+                it("should show title and genre", closure: {
+                    expect(cell.textLabel?.text) == "疯狂动物城"
+                    expect(cell.detailTextLabel?.text) == "animation"
+                })
+            })
         }
     }
 }
